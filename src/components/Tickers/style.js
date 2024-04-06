@@ -1,0 +1,98 @@
+const styles = {
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginTop: '20px',
+    padding: '0 20px',
+    backgroundColor: '#f4f4f1',
+    fontFamily: 'Arial, sans-serif',
+  },
+  form: {
+    display: 'flex',
+    justifyContent: 'center',
+    marginBottom: '30px',
+    gap: '15px',
+  },
+  selectCoinInput: {
+    borderRadius: '5px',
+    border: '1px solid #ccc',
+    padding: '10px 15px',
+    fontSize: 24,
+    outline: 'none',
+  },
+  selectExchInput: {
+    borderRadius: '5px',
+    border: '1px solid #ccc',
+    padding: '10px 15px',
+    fontSize: 24,
+    outline: 'none',
+  },
+  searchButton: {
+    padding: '20px 30px',
+    margin: '0 10px',
+    borderRadius: '5px',
+    border: 'none',
+    backgroundColor: '#1d5891',
+    color: 'white',
+    cursor: 'pointer',
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+  tickerContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: '100%',
+    border: '1px solid #E0E0D7',
+    background: '#FFFFFF',
+    boxShadow: 'inset 1px 1px 0 0 rgba(255,255,255,0.80)',
+    transition: '0.3s',
+    borderRadius: 4,
+    padding: 20,
+    margin: '10px 0',
+  },
+  tickerLeft: {
+    display: 'flex',
+    alignItems: 'flex-start',
+    flexDirection: 'column',
+  },
+  tickerRight: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-end',
+    justifyContent: 'space-between',
+  },
+  leftTitle: {
+    fontSize: 32,
+    color: '#333',
+    fontWeight: 'bold',
+  },
+  tickerValueBold: {
+    fontSize: 13,
+    color: '#333',
+    fontWeight: 'bold',
+  },
+  tickerValue: {
+    fontSize: 13,
+    color: '#333',
+  },
+  tickerContent: {
+    display: 'flex',
+    flexDirection: 'row',
+    gap: 2,
+  },
+  tickerContentRight: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-end',
+  },
+  viewMoreLink: {
+    borderRadius: '5px',
+    color: '#1d5891',
+    fontSize: 13,
+    textDecoration: 'underline',
+  },
+};
+
+export default styles;
